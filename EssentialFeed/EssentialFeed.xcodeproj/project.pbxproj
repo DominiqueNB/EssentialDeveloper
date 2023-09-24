@@ -34,6 +34,7 @@
 		26DFE9992AAA2296008E5881 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFE9982AAA2296008E5881 /* FeedStore.swift */; };
 		26DFE99B2AAA4673008E5881 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFE99A2AAA4673008E5881 /* RemoteFeedItem.swift */; };
 		26DFE99D2AAA4714008E5881 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFE99C2AAA4714008E5881 /* LocalFeedImage.swift */; };
+		26FA69F62AC0A2AB001D6E16 /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA69F52AC0A2AB001D6E16 /* CodableFeedStoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		26DFE9982AAA2296008E5881 /* FeedStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		26DFE99A2AAA4673008E5881 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 		26DFE99C2AAA4714008E5881 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
+		26FA69F52AC0A2AB001D6E16 /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				265705FE2AAFB8FF00F740E5 /* LoadFeedFromCacheUseCaseTests.swift */,
 				265706072AB25DF700F740E5 /* ValidateFeedCacheUseCaseTests.swift */,
 				265706092AB2667300F740E5 /* Helpers */,
+				26FA69F52AC0A2AB001D6E16 /* CodableFeedStoreTests.swift */,
 			);
 			path = FeedCache;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FA69F62AC0A2AB001D6E16 /* CodableFeedStoreTests.swift in Sources */,
 				2657060B2AB266E100F740E5 /* FeedCacheTestHelpers.swift in Sources */,
 				265706082AB25DF700F740E5 /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				26C66B392A82DDFE0094F0FF /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
