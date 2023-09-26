@@ -192,10 +192,10 @@
 			isa = PBXGroup;
 			children = (
 				2667BC132AA8B52A00D0EBAF /* CacheFeedUseCaseTests.swift */,
+				26FA69F52AC0A2AB001D6E16 /* CodableFeedStoreTests.swift */,
 				265705FE2AAFB8FF00F740E5 /* LoadFeedFromCacheUseCaseTests.swift */,
 				265706072AB25DF700F740E5 /* ValidateFeedCacheUseCaseTests.swift */,
 				265706092AB2667300F740E5 /* Helpers */,
-				26FA69F52AC0A2AB001D6E16 /* CodableFeedStoreTests.swift */,
 			);
 			path = FeedCache;
 			sourceTree = "<group>";
