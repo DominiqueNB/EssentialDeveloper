@@ -35,16 +35,12 @@ final class CodableFeedStoreTests: XCTestCase, FailableFeedStore {
     
     func test_retrieve_deliversFoundValuesOnNonEmptyCache() {
         let sut = makeSUT()
-        let feed = uniqueImageFeed().local
-        let timestamp = Date()
         
         assertThatRetrieveDeliversFoundValuesOnNonEmptyCache(on: sut)
     }
     
     func test_retrieve_hasNoSideEffectsOnNonEmptyCache() {
         let sut = makeSUT()
-        let feed = uniqueImageFeed().local
-        let timestamp = Date()
         
         assertThatRetrieveHasNoSideEffectsOnNonEmptyCache(on: sut)
     }
