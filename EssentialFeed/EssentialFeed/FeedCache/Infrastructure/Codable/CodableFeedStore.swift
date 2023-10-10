@@ -34,6 +34,7 @@ public final class CodableFeedStore: FeedStore {
             return LocalFeedImage(id: id, description: description, location: location, url: url)
         }
     }
+    
     private let queue = DispatchQueue(label: "\(CodableFeedStore.self)Queue", qos: .userInitiated, attributes: .concurrent)
     private let storeURL: URL
     
