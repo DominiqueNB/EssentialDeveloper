@@ -16,16 +16,15 @@
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26B8EADC2A95423400B6AABD"
-            BuildableName = "EssentialFeedAPIEndToEndTests.xctest"
-            BlueprintName = "EssentialFeedAPIEndToEndTests"
+            BlueprintIdentifier = "260247872A82D919007EA7BB"
+            BuildableName = "EssentialFeed.app"
+            BlueprintName = "EssentialFeed"
             ReferencedContainer = "container:EssentialFeed.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO"
-            parallelizable = "YES"
             testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
